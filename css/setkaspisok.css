@@ -1,0 +1,27 @@
+body {
+    max-width: 1200px;
+    margin: 10px;
+    background-color: rgb(228, 247, 213);
+    font-size: 15px;
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.text {
+    flex: 6;
+    padding: 10px 0;
+}
+label {
+    display: block;
+    padding: 10px 0;
+}
+input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(191, 247, 149);
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <title>Поиск суммы минимальных чисел</title>
+    <link rel="stylesheet" href="css/setkaspisok.css">
+    <script src="https://unpkg.com/vue@next"></script>
+</html>
+<body>
+    <div id="app">
+        <form @submit.prevent="sumOfMin()">
+            <label for="poisk">Введите последовательность чисел:</label>
+            <input type="text" id="poisk" name="num"
+                v-model.trim="num">
+            <input type="submit" value="Найти сумму минимальных чисел" id="test">
+        </form>
+        <div class="div">
+            <p id="result">{{text}}</p>
+        </div>
+    </div>    
+    <script src="js/task_vue.js"></script>
+</body>
